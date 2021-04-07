@@ -25,7 +25,6 @@ chordTypes = {
 
 print("Enter the type of chord you would like to generate.\n")
 
-
 i = 1
 for string in chordTypes:
     print(str(i) + ":\t" + string + " chord")
@@ -43,3 +42,4 @@ frequencies = [baseFreq]
 genFreq(baseFreq, userType)
 
 print(frequencies)
+
